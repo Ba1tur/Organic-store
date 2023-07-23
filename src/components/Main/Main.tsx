@@ -3,6 +3,8 @@ import Hero from "./Hero/Hero";
 import Offer from "./Offer/Offer";
 import AboutUs from "./AboutUs/AboutUs";
 import OurProduct from "./OurProduct/OurProduct";
+import Testimonial from "./Testimonial/Testimonial";
+import OrganickOffer from "./OrganickOffer/OrganickOffer";
 
 const Main = () => {
   return (
@@ -11,6 +13,8 @@ const Main = () => {
       <Offer />
       <AboutUs />
       <OurProduct/>
+      <Testimonial/>
+      <OrganickOffer/>
     </>
   );
 };

@@ -1,8 +1,130 @@
 {
-	"products" : [
-		{
-			"id" : 1,
-			"name" : "bro"
-		}
+	"products": [
+	  {
+		 "id": 1,
+		 "type": "Vegetable",
+		 "img": "/database/brokoli.png",
+		 "name": "Calabrese Broccoli",
+		 "discount": 20,
+		 "price": 13,
+		 "description": "Nutritious and flavorful vegetable, rich in vitamins. Perfect for healthy salads and stir-fries."
+	  },
+	  {
+		 "id": 2,
+		 "type": "Fresh",
+		 "img": "/database/banana.png",
+		 "name": "Fresh Banana Fruits",
+		 "discount": 20,
+		 "price": 14,
+		 "description": "Naturally sweet and convenient snack, packed with potassium and essential nutrients."
+	  },
+	  {
+		 "id": 3,
+		 "type": "Millets",
+		 "img": "/database/nuts.png",
+		 "name": "White Nuts",
+		 "discount": 20,
+		 "price": 15,
+		 "description": "Wholesome millets with a delightful crunch, great for porridge and baking recipes."
+	  },
+	  {
+		 "id": 4,
+		 "type": "Vegetable",
+		 "img": "/database/tamoto.png",
+		 "name": "Vegan Red Tomato",
+		 "discount": 20,
+		 "price": 17,
+		 "description": "Juicy and vibrant, ideal for sauces, salads, and adding color to your dishes."
+	  },
+	  {
+		 "id": 5,
+		 "type": "Health",
+		 "img": "/database/bean.png",
+		 "name": "Mung Bean",
+		 "discount": 20,
+		 "price": 11,
+		 "description": "Protein-packed and versatile, excellent for soups, curries, and sprouting at home."
+	  },
+	  {
+		 "id": 6,
+		 "type": "Nuts",
+		 "img": "/database/hazelnut.png",
+		 "name": "Brown Hazelnut",
+		 "discount": 20,
+		 "price": 12,
+		 "description": "Nutty and aromatic, an excellent source of healthy fats for your desserts and snacks."
+	  },
+	  {
+		 "id": 7,
+		 "type": "Fresh",
+		 "img": "/database/eggs.png",
+		 "name": "Eggs",
+		 "discount": 20,
+		 "price": 17,
+		 "description": "Farm-fresh, protein-rich eggs, perfect for breakfasts, baking, and a variety of savory dishes."
+	  },
+	  {
+		 "id": 8,
+		 "type": "Fresh",
+		 "img": "/database/zelco.png",
+		 "name": "Zelco Suji Elaichi Rusk",
+		 "discount": 20,
+		 "price": 15,
+		 "description": "Crispy and delicious Indian rusk, flavored with cardamom for a delightful treat."
+	  },
+	  {
+		 "id": 9,
+		 "type": "Vegetable",
+		 "img": "/database/brown.png",
+		 "name": "Brown Hazelnut",
+		 "discount": 20,
+		 "price": 12,
+		 "description": "Nutty and aromatic, an excellent source of healthy fats for your desserts and snacks."
+	  },
+	  {
+		 "id": 10,
+		 "type": "Vegetable",
+		 "img": "/database/onion.png",
+		 "name": "Onion",
+		 "discount": 20,
+		 "price": 17,
+		 "description": "A kitchen staple, adds depth and flavor to countless dishes, from soups to stews."
+	  },
+	  {
+		 "id": 11,
+		 "type": "Vegetable",
+		 "img": "/database/cabbage.png",
+		 "name": "Cabbage",
+		 "discount": 20,
+		 "price": 17,
+		 "description": "Crunchy and versatile, great for slaws, stir-fries, and adding freshness to meals."
+	  },
+	  {
+		 "id": 12,
+		 "type": "Nuts",
+		 "img": "/database/WhiteHazelnut.png",
+		 "name": "White Hazelnut",
+		 "discount": 20,
+		 "price": 12,
+		 "description": "Delicate and creamy, perfect for confectionery, baking, and garnishing desserts."
+	  },
+	  {
+		 "id": 13,
+		 "type": "Fresh",
+		 "img": "/database/corn.png",
+		 "name": "Fresh Corn",
+		 "discount": 20,
+		 "price": 17,
+		 "description": "Sweet and juicy, great for grilling, boiling, or adding to salads and salsas."
+	  },
+	  {
+		 "id": 14,
+		 "type": "Fresh",
+		 "img": "/database/almonds.png",
+		 "name": "Organic Almonds",
+		 "discount": 20,
+		 "price": 15,
+		 "description": "Nutrient-rich and crunchy, a perfect on-the-go snack or addition to your recipes."
+	  }
 	]
-}
+ } 

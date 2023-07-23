@@ -1,3 +1,4 @@
+import Button from "@/components/UI/Button";
 import Image from "next/image";
 import React from "react";
 
@@ -60,7 +61,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <button className="robotoFont mt-6 text-xl mt-11 font-bold text-white bg-[#274C5B] h-20 rounded-2xl w-[220px]">Shop Now</button>
+		     <Button className={"text-white bg-[#274C5B]"}> Shop Now</Button>
         </div>
       </div>
     </section>
