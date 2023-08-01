@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const ProductCard  = ({product}) => {
+const ProductCard  = ({product} : any)  => {
 	return (
 		<div className="max-w-[355px] w-full p-7 h-[448px] bg-[#F9F8F8] rounded-[30px]">
 		<div className="openFont w-[96px] h-[31px] rounded-lg bg-[#274C5B] text-white text-[15px] text-center pt-[4px] font-semibold">

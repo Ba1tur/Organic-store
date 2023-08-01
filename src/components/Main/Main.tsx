@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import OurProduct from "./OurProduct/OurProduct";
 import Testimonial from "./Testimonial/Testimonial";
 import OrganickOffer from "./OrganickOffer/OrganickOffer";
+import Subscribe from "../Subscribe/Subscribe";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <OurProduct/>
       <Testimonial/>
       <OrganickOffer/>
+      <Subscribe/>
     </>
   );
 };

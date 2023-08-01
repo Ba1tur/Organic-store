@@ -1,5 +1,6 @@
 import ProductCard from "@/components/ProductCard/ProductCard";
 import Button from "@/components/UI/Button";
+import Loader from "@/components/UI/Loader";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux";
 import { IProduct } from "@/interface/IProduct";
 import { fetchProducts } from "@/redux/ProductList";
@@ -7,13 +8,7 @@ import Image from "next/image";
 import React , {useEffect} from "react";
 
 const OurProduct : React.FC = () => {
-	const dispatch = useAppDispatch()
 	const {products , error , isLoading} = useAppSelector(state => state.productReducer)
-
-	useEffect(() => {
-		dispatch(fetchProducts(14))
-	}, [])
-	console.log(products);
   return (
     <section className="containers bg-white" style={{ height: "900px" }}>
       <h2 className="yellowFont text-center text-4xl text-[#7EB693] font-normal">
@@ -23,6 +18,8 @@ const OurProduct : React.FC = () => {
         Our Products
       </h1>
       <div className="w-full grid grid-cols-4 gap-5 h-[930px] overflow-hidden mt-10">
+        {isLoading && <Loader></Loader>}
+        {error && <h1>{error}</h1>}
         {products.map((product) => {
           return (
             <ProductCard product={product}/>
