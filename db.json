@@ -7,8 +7,9 @@
 		 "name": "Calabrese Broccoli",
 		 "discount": 20,
 		 "price": 13,
-		 "description": "Nutritious and flavorful vegetable, rich in vitamins. Perfect for healthy salads and stir-fries."
-	  },
+		 "description": "Nutritious and flavorful vegetable, rich in vitamins. Perfect for healthy salads and stir-fries.",
+		 "count": 1
+		},
 	  {
 		 "id": 2,
 		 "type": "Fresh",
@@ -16,8 +17,9 @@
 		 "name": "Fresh Banana Fruits",
 		 "discount": 20,
 		 "price": 14,
-		 "description": "Naturally sweet and convenient snack, packed with potassium and essential nutrients."
-	  },
+		 "description": "Naturally sweet and convenient snack, packed with potassium and essential nutrients.",
+		 "count": 1
+		},
 	  {
 		 "id": 3,
 		 "type": "Millets",
@@ -25,8 +27,9 @@
 		 "name": "White Nuts",
 		 "discount": 20,
 		 "price": 15,
-		 "description": "Wholesome millets with a delightful crunch, great for porridge and baking recipes."
-	  },
+		 "description": "Wholesome millets with a delightful crunch, great for porridge and baking recipes.",
+		 "count": 1
+		},
 	  {
 		 "id": 4,
 		 "type": "Vegetable",
@@ -34,8 +37,9 @@
 		 "name": "Vegan Red Tomato",
 		 "discount": 20,
 		 "price": 17,
-		 "description": "Juicy and vibrant, ideal for sauces, salads, and adding color to your dishes."
-	  },
+		 "description": "Juicy and vibrant, ideal for sauces, salads, and adding color to your dishes.",
+		 "count": 1
+		},
 	  {
 		 "id": 5,
 		 "type": "Health",
@@ -43,8 +47,9 @@
 		 "name": "Mung Bean",
 		 "discount": 20,
 		 "price": 11,
-		 "description": "Protein-packed and versatile, excellent for soups, curries, and sprouting at home."
-	  },
+		 "description": "Protein-packed and versatile, excellent for soups, curries, and sprouting at home.",
+		 "count": 1
+		},
 	  {
 		 "id": 6,
 		 "type": "Nuts",
@@ -52,8 +57,9 @@
 		 "name": "Brown Hazelnut",
 		 "discount": 20,
 		 "price": 12,
-		 "description": "Nutty and aromatic, an excellent source of healthy fats for your desserts and snacks."
-	  },
+		 "description": "Nutty and aromatic, an excellent source of healthy fats for your desserts and snacks.",
+		 "count": 1
+		},
 	  {
 		 "id": 7,
 		 "type": "Fresh",
@@ -61,8 +67,9 @@
 		 "name": "Eggs",
 		 "discount": 20,
 		 "price": 17,
-		 "description": "Farm-fresh, protein-rich eggs, perfect for breakfasts, baking, and a variety of savory dishes."
-	  },
+		 "description": "Farm-fresh, protein-rich eggs, perfect for breakfasts, baking, and a variety of savory dishes.",
+		 "count": 1
+		},
 	  {
 		 "id": 8,
 		 "type": "Fresh",
@@ -70,8 +77,9 @@
 		 "name": "Zelco Suji Elaichi Rusk",
 		 "discount": 20,
 		 "price": 15,
-		 "description": "Crispy and delicious Indian rusk, flavored with cardamom for a delightful treat."
-	  },
+		 "description": "Crispy and delicious Indian rusk, flavored with cardamom for a delightful treat.",
+		 "count": 1
+		},
 	  {
 		 "id": 9,
 		 "type": "Vegetable",
@@ -79,8 +87,9 @@
 		 "name": "Brown Hazelnut",
 		 "discount": 20,
 		 "price": 12,
-		 "description": "Nutty and aromatic, an excellent source of healthy fats for your desserts and snacks."
-	  },
+		 "description": "Nutty and aromatic, an excellent source of healthy fats for your desserts and snacks.",
+		 "count": 1
+		},
 	  {
 		 "id": 10,
 		 "type": "Vegetable",
@@ -88,8 +97,9 @@
 		 "name": "Onion",
 		 "discount": 20,
 		 "price": 17,
-		 "description": "A kitchen staple, adds depth and flavor to countless dishes, from soups to stews."
-	  },
+		 "description": "A kitchen staple, adds depth and flavor to countless dishes, from soups to stews.",
+		 "count": 1
+		},
 	  {
 		 "id": 11,
 		 "type": "Vegetable",
@@ -97,8 +107,9 @@
 		 "name": "Cabbage",
 		 "discount": 20,
 		 "price": 17,
-		 "description": "Crunchy and versatile, great for slaws, stir-fries, and adding freshness to meals."
-	  },
+		 "description": "Crunchy and versatile, great for slaws, stir-fries, and adding freshness to meals.",
+		 "count": 1
+		},
 	  {
 		 "id": 12,
 		 "type": "Nuts",
@@ -106,8 +117,9 @@
 		 "name": "White Hazelnut",
 		 "discount": 20,
 		 "price": 12,
-		 "description": "Delicate and creamy, perfect for confectionery, baking, and garnishing desserts."
-	  },
+		 "description": "Delicate and creamy, perfect for confectionery, baking, and garnishing desserts.",
+		 "count": 1
+		},
 	  {
 		 "id": 13,
 		 "type": "Fresh",
@@ -115,8 +127,9 @@
 		 "name": "Fresh Corn",
 		 "discount": 20,
 		 "price": 17,
-		 "description": "Sweet and juicy, great for grilling, boiling, or adding to salads and salsas."
-	  },
+		 "description": "Sweet and juicy, great for grilling, boiling, or adding to salads and salsas.",
+		 "count": 1
+		},
 	  {
 		 "id": 14,
 		 "type": "Fresh",
@@ -124,7 +137,8 @@
 		 "name": "Organic Almonds",
 		 "discount": 20,
 		 "price": 15,
-		 "description": "Nutrient-rich and crunchy, a perfect on-the-go snack or addition to your recipes."
-	  }
+		 "description": "Nutrient-rich and crunchy, a perfect on-the-go snack or addition to your recipes.",
+		 "count": 1
+		}
 	]
  } 

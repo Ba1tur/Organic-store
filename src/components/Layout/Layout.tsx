@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import React, { useEffect } from "react";
 import { useAppDispatch } from "@/hooks/redux";
 import { fetchProducts } from "@/redux/ProductList";
+import Subscribe from "../Subscribe/Subscribe";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -19,6 +20,7 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <Header />
       {children}
+      <Subscribe/>
       <Footer />
     </>
   );

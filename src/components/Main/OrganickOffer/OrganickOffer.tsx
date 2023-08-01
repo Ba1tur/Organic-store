@@ -13,7 +13,7 @@ const OrganickOffer = () => {
 	useEffect(() => {
 			const filterProducts = products.filter(item => item.type === 'Vegetable');
 			setVegetableProducts(filterProducts)	
-	},[])
+	},[products])
 
 	return (
 		<section className='w-full bg-[#274C5B] mb-[120px] h-[1050px]'>

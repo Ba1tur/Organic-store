@@ -1,8 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import productReducer from './ProductSlice'
+import basketReducer from './BasketSlice'
 
 const rootReducer = combineReducers({
-	productReducer
+	productReducer ,
+	basketReducer
 })
 
 export const setupStore = () => {

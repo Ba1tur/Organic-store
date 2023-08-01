@@ -1,5 +1,4 @@
-
-import { IProduct } from "@/interface/IProduct";
+import { IProduct } from './../interface/IProduct';
 import { createSlice , PayloadAction } from "@reduxjs/toolkit";
 import { fetchProducts } from "./ProductList";
 
@@ -16,6 +15,7 @@ const initialState : ProductState = {
 	isLoading: false,
 	error: '',
 }
+
 
 export const productSlice = createSlice({
 	name: 'products',
