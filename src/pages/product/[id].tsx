@@ -10,7 +10,7 @@ import React, { useEffect , useState } from 'react';
 const Product : NextPage = () => {
 
 	const {query} : any = useRouter()
-	const [finalyProductById, setfinalyProductById] = useState<IProduct>();
+	const [finalyProductById, setfinalyProductById] = useState<IProduct | null | undefined>(null);
 	
 
 	useEffect(() => {
@@ -23,6 +23,9 @@ const Product : NextPage = () => {
 	}, [query.id])
 
 	
+	if (!finalyProductById) {
+		return <div>Loading...</div>; 
+	 }
 
 	return (
 		<>

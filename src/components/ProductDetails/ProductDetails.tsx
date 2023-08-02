@@ -7,7 +7,7 @@ import { basketSlice } from "@/redux/BasketSlice";
 import {  notification } from 'antd';
 
 type Props = {
-	finalyProductById : IProduct
+	finalyProductById : IProduct 
 }
 
 type NotificationType = 'success';
