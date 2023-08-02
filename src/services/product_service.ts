@@ -2,7 +2,7 @@ import { IProduct } from "@/interface/IProduct";
 import axios from "axios";
 
 
-const API_URL = 'http://localhost:4080'
+const API_URL = 'https://organic-store-backend.vercel.app/'
 
 axios.defaults.baseURL = API_URL
 

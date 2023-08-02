@@ -21,9 +21,13 @@ export const basketSlice = createSlice({
 	initialState,
 	reducers: {
 		addToCart: (state, action: PayloadAction<IProduct>) => {
-			state.basket.push(action.payload)
+			state.basket.push(action.payload)	
+		},
+		deleteCart: (state , action: PayloadAction<number>) => {
+		    state.basket = state.basket.filter((item) => item.id !== action.payload)
 		}
 	}
 })
+
 
 export default basketSlice.reducer;

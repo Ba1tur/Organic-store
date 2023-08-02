@@ -10,7 +10,7 @@ export const fetchProducts = createAsyncThunk(
   async (num: number, thunkAPI) => {
     try {
       const response = await axios.get<IProduct[]>(
-        `http://localhost:4080/products?_limit=${num}`
+        `https://organic-store-backend.vercel.app/products?_limit=${num}`
       );
       return response.data;
     } catch (e) {

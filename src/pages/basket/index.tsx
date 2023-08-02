@@ -9,6 +9,10 @@ const Basket = () => {
     (state) => state.basketReducer
   );
 
+  console.log(basket);
+
+
+
   return (
     <section>
       <main className='bg-[url("/Background-Cart.jpg")]  w-full bg-center  h-[470px] bg-no-repeat'>
@@ -19,8 +23,8 @@ const Basket = () => {
       <div className="containers grid grid-cols-2 gap-5 h-[930px] overflow-hidden mt-10">
         {isLoading && <Loader></Loader>}
         {error && <h1>{error}</h1>}
-        {basket.length !== 0 ? (
-          basket.map((basket) => {
+        {basket?.length !== 0 ? (
+          basket?.map((basket) => {
             return <BasketCard basket={basket} />;
           })
         ) : (

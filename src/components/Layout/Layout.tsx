@@ -13,7 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    dispatch(fetchProducts(14));
+    dispatch(fetchProducts(16));
   }, []);
 
   return (

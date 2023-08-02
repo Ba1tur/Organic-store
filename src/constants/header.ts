@@ -1,31 +1,38 @@
 interface headerData {
 	id: number,
 	name: string,
+	link: string,
 }
 
 export const ulData : headerData[] = [
 	{
 		id: 1,
-		name: 'Home'
+		name: 'Home',
+		link: '/'
 	},
 	{
 		id: 2,
-		name: 'About'
+		name: 'About',
+		link: '/'
 	},
 	{
 		id: 3,
-		name: 'Pages'
+		name: 'Pages',
+		link: '/'
 	},
 	{
 		id: 4,
-		name: 'Shop'
+		name: 'Shop',
+		link: '/shop'
 	},
 	{
 		id: 5,
-		name: 'Projects'
+		name: 'Projects',
+		link: '/'
 	},
 	{
 		id: 6,
-		name: 'News'
+		name: 'News',
+		link: '/'
 	},
 ] 

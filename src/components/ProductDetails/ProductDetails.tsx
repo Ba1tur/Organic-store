@@ -4,29 +4,45 @@ import Button from "../UI/Button";
 import { IProduct } from "@/interface/IProduct";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux";
 import { basketSlice } from "@/redux/BasketSlice";
+import {  notification } from 'antd';
 
 type Props = {
 	finalyProductById : IProduct
 }
 
+type NotificationType = 'success';
+
 	const ProductDetails : React.FC<Props> = ({finalyProductById}) => {
 		
 		const dispatch = useAppDispatch()
 		const [count, setCount] = useState<number>(1);	
+		const [api, contextHolder] = notification.useNotification();
+		
+
+		const openNotificationWithIcon = (type: NotificationType) => {
+		  api[type]({
+			 message: 'Successfully added to cart',
+			 description:
+				'If you want to buy an item, go to the shopping cart',
+		  });
+		}
 
 		const {addToCart} = basketSlice.actions
 
 		const handleAddToCart = () => {
 			const cartItem = {
 			  ...finalyProductById,
-			  count: count
+			  count: count,
+			  id: Date.now()
 			};
 	  
 			dispatch(basketSlice.actions.addToCart(cartItem));
+			openNotificationWithIcon('success')
 		 };
 
 	return (
 		<div className="containers">
+			{contextHolder}
 			<div className="w-full mt-[114px] flex  justify-between">
 			<div className="flex justify-center w-[591px] bg-[#F9F8F8] rounded-[30px] relative">
 				<div className="openFont w-[73px] absolute left-[35px] top-[38px] h-[31px] rounded-lg bg-[#274C5B] text-white text-[15px] text-center pt-[4px] font-semibold">
