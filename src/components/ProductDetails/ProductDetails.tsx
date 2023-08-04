@@ -7,19 +7,20 @@ import { basketSlice } from "@/redux/BasketSlice";
 import {  notification } from 'antd';
 
 type Props = {
-	finalyProductById : IProduct 
+	finalyProductById : IProduct ,
+	loading : boolean,
 }
 
 type NotificationType = 'success';
 
-	const ProductDetails : React.FC<Props> = ({finalyProductById}) => {
+	const ProductDetails : React.FC<Props> = ({finalyProductById , loading}) => {
 		
 		const dispatch = useAppDispatch()
 		const [count, setCount] = useState<number>(1);	
 		const [api, contextHolder] = notification.useNotification();
 		
 
-		const openNotificationWithIcon = (type: NotificationType) => {
+		const openNotificationWithIcon = (type: NotificationType) => {	
 		  api[type]({
 			 message: 'Successfully added to cart',
 			 description:
@@ -48,15 +49,16 @@ type NotificationType = 'success';
 				<div className="openFont w-[73px] absolute left-[35px] top-[38px] h-[31px] rounded-lg bg-[#274C5B] text-white text-[15px] text-center pt-[4px] font-semibold">
 					{finalyProductById?.type}
 				</div>
-				<Image
+				{loading ? <Image
 					src={finalyProductById?.img}
 					className="mix-blend-multiply"
 					alt="organick"
 					width={600}
 					height={600}
-				/>
+				/>  : <div className="w-[600px] h-[600px] my-loading-div "></div>}
 			</div>
-			<div className="w-[658px] mt-[120px]">
+			{loading ? (
+				<div className="w-[658px] mt-[120px]">
 				<h2 className="robotoFont text[#274C5B] font-semibold text-[40px]">{finalyProductById?.name}</h2>
 				<Image className="mt-2" src="/Star.svg" alt="start.svg" width={84} height={19} />
 				<div className="flex gap-2 mt-2">
@@ -77,6 +79,7 @@ type NotificationType = 'success';
 					<Button onClick={handleAddToCart}  className="bg-[#274C5B] text-white ml-5">Add To Cart</Button>
 				</div>
 			</div>
+			) : <div className="w-[658px] h-[479px] mt-[120px] my-loading-div"></div>}
 			</div>
 		</div>
 	);

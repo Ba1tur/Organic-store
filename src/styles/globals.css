@@ -50,6 +50,23 @@ button{
 }
 
 
+.my-loading-div {
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 30px;
+  background-size: 200% 100%;
+  animation: 1s shine linear infinite; 
+  position: relative;
+  z-index: 10;
+}
+
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -74,6 +91,5 @@ button{
   }
   *::-webkit-scrollbar-thumb:hover {
     background-color: #7de3a4;
-    transition: 0.3s;
-
+    transition: 0.3s; 
   }

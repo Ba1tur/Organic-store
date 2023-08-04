@@ -17,7 +17,7 @@ const OurProduct : React.FC = () => {
       <h1 className="text-center robotoFont text-[50px] mt-[8px] font-extrabold text-[#274C5B] leading-[50px]">
         Our Products
       </h1>
-      <div className="w-full grid grid-cols-4 gap-5 h-[930px] overflow-hidden mt-10">
+      <div className="w-full grid grid-cols-4 gap-5 h-[930px] overflow-hidden mt-10 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 sm:col-2">
         {isLoading && <Loader></Loader>}
         {error && <h1>{error}</h1>}
         {products.map((product) => {
